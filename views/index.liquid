@@ -1,14 +1,13 @@
 {% render 'partials/head.liquid' %}
 
-<article>
-  <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
-  </header>
-
-  <p>{{ person.name }}</p>
-
-  <footer></footer>
-</article>
+<header class="header">
+  <p class="title">Luka Dujakovic</p>
+  <p class="subtitle">a.k.a. Mr. Moggington</p>
+  <div class="profileCardWrapper">
+    <img src="/assets/luka-face.jpg" width="150"/>
+    <audio id="larry" src="/assets/larry.mp3" preload="auto"></audio>
+    <img src="/assets/larry.jpg" width="150"/>
+  </div>
+</header>
 
 {% render 'partials/foot.liquid' %}
