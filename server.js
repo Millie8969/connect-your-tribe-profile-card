@@ -19,6 +19,8 @@ const personResponseJSON = await personResponse.json()
 // (Let op: dit is _niet_ de console van je browser, maar van NodeJS, in je terminal)
 console.log(personResponseJSON)
 
+// Verkrijgen van het 'custom' object door de string van de JSON te parsen naar JSON
+const customJson = JSON.parse(personResponseJSON.data.custom)
 
 // Maak een nieuwe Express applicatie aan, waarin we de server configureren
 const app = express()
