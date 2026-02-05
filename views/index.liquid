@@ -1,13 +1,14 @@
 {% render 'partials/head.liquid' %}
 
-    <img src="/assets/luka-face.jpg" width="150"/>
 <main class="main">
   <h1 class="title">{{ person.name }}</h1>
   <section class="subtitle">a.k.a. {{ person.nickname }}</section>
   <div class="profileCardImgWrapper">
+    <img src="/assets/luka-face.jpg" class="mainImage" width="250"/>
     <audio id="larry" src="/assets/larry.mp3" preload="auto"></audio>
-    <img src="/assets/larry.jpg" width="150"/>
+    <img src="/assets/larry.jpg" class="mainImage" width="250"/>
   </div>
-</header>
+  <h2 class="bioTitle">Bio</h2>
+</main>
 
 {% render 'partials/foot.liquid' %}

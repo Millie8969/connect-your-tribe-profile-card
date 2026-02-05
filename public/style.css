@@ -34,7 +34,6 @@ body {
   display: block;
   margin: 10px;
   text-align: center;
-  font-size: xx-large;
   font-size: var(--size-heading);
   letter-spacing: var(--letter-spacing-normal);
   font-family: Haettenschweiler;
@@ -51,7 +50,7 @@ body {
 .profileCardImgWrapper {
   justify-content: center;
   display: grid;
-  max-width: 150px;
+  max-width: 40%;
   img {
     grid-area: -1 / 1;
     opacity: 1;
@@ -74,4 +73,6 @@ body {
   letter-spacing: var(--letter-spacing-normal);
 }
 
+.dataDisplay {
+  font-family: Arial, Helvetica, sans-serif;
 }
