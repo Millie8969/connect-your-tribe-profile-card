@@ -1,9 +1,9 @@
 {% render 'partials/head.liquid' %}
 
-  <p class="title">Luka Dujakovic</p>
-  <p class="subtitle">a.k.a. Mr. Moggington</p>
     <img src="/assets/luka-face.jpg" width="150"/>
 <main class="main">
+  <h1 class="title">{{ person.name }}</h1>
+  <section class="subtitle">a.k.a. {{ person.nickname }}</section>
   <div class="profileCardImgWrapper">
     <audio id="larry" src="/assets/larry.mp3" preload="auto"></audio>
     <img src="/assets/larry.jpg" width="150"/>
