@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-const target = document.querySelector('.profileCardWrapper');
+const target = document.querySelector('.profileCardImgWrapper');
       const sound = document.getElementById('larry'); 
 
       target.addEventListener('mouseenter', (e) => {

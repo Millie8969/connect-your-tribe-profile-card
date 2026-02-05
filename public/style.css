@@ -37,7 +37,7 @@ body {
   font-family: 'Brush Script MT', cursive;
 }
 
-.profileCardWrapper {
+.profileCardImgWrapper {
   justify-content: center;
   display: grid;
   max-width: 150px;
@@ -51,7 +51,7 @@ body {
   }
 }
 
-.profileCardWrapper:hover {
+.profileCardImgWrapper:hover {
   img:first-child {
     opacity: 0;
     transition: opacity 1.5s ease-out;
