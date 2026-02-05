@@ -1,3 +1,12 @@
+:root {
+  --letter-spacing-normal: 3%;
+
+  --size-heading: 72px;
+  --size-heading-small: 64px;
+  --size-heading-smaller: 58px;
+  --size-body: 50px;
+}
+
 body {
   background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjFtb2kxbjBld3YyYTY3NXM1aWczYm5mN2htcHJtNHp6Z3BrOHQ1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKHVVuIwtt3Xhb3SjV/giphy.gif);
   background-size: cover;
@@ -26,6 +35,8 @@ body {
   margin: 10px;
   text-align: center;
   font-size: xx-large;
+  font-size: var(--size-heading);
+  letter-spacing: var(--letter-spacing-normal);
   font-family: Haettenschweiler;
 }
 
@@ -33,7 +44,7 @@ body {
   display: block;
   margin: 10px;
   text-align: center;
-  font-size: larger;
+  font-size: var(--size-heading-small);
   font-family: 'Brush Script MT', cursive;
 }
 
@@ -56,4 +67,11 @@ body {
     opacity: 0;
     transition: opacity 1.5s ease-out;
   }
+}
+
+.bioTitle {
+  font-family: Haettenschweiler;
+  letter-spacing: var(--letter-spacing-normal);
+}
+
 }
